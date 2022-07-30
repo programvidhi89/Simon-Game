@@ -38,8 +38,10 @@ function checkAnswer(currentLevel){
         setTimeout(function(){
             $(".container").removeClass("game-over");
         },200);
+
+        startOver();
     }
-    startOver();
+   
 }
 
 function nextSequence(){
